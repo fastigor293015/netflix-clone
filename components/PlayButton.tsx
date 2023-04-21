@@ -51,7 +51,7 @@ const PlayButton: React.FC<PlayButtonProps> = ({
         transition
       "
     >
-      <BsFillPlayFill size={25} />
+      <BsFillPlayFill className="text-[1.35em]" />
       Play
     </button>
   );
